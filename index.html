@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NAV Books - Free download</title>
+<meta name="description" content="Simple bookkeeping for your household and small business. Runs on your own Windows PC, keeps your books encrypted, and prints the reports you need at tax time.">
+<style>
+  :root { --green:#1a7f37; --green-dark:#116329; --ink:#1f2328; --soft:#59636e; --line:#d1d9e0; --bg:#f6f8fa; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:"Segoe UI", system-ui, -apple-system, Arial, sans-serif; color:var(--ink); line-height:1.55; background:#fff; }
+  main { max-width:860px; margin:0 auto; padding:24px 20px 60px; }
+  header { text-align:center; padding:40px 0 24px; }
+  h1 { font-size:2.2rem; margin:0 0 8px; }
+  .tag { font-size:1.2rem; color:var(--soft); margin:0 auto 28px; max-width:640px; }
+  .btn { display:inline-block; background:var(--green); color:#fff; text-decoration:none; font-size:1.35rem; font-weight:600;
+         padding:18px 38px; border-radius:12px; box-shadow:0 3px 0 var(--green-dark); }
+  .btn:hover { background:var(--green-dark); }
+  .btn small { display:block; font-size:.85rem; font-weight:400; opacity:.9; margin-top:2px; }
+  .under { color:var(--soft); font-size:.95rem; margin-top:12px; }
+  .shot { display:block; width:100%; max-width:760px; margin:28px auto 0; border:1px solid var(--line); border-radius:10px; }
+  h2 { font-size:1.5rem; margin:48px 0 16px; border-bottom:1px solid var(--line); padding-bottom:6px; }
+  ol.steps { list-style:none; padding:0; margin:0; counter-reset:s; }
+  ol.steps > li { counter-increment:s; display:flex; gap:18px; align-items:flex-start; background:var(--bg); border:1px solid var(--line);
+                  border-radius:12px; padding:18px; margin-bottom:14px; }
+  ol.steps > li::before { content:counter(s); flex:0 0 44px; height:44px; border-radius:50%; background:var(--green); color:#fff;
+                          font-weight:700; font-size:1.3rem; display:flex; align-items:center; justify-content:center; }
+  .step-body { flex:1; }
+  .step-body b.big { font-size:1.15rem; display:block; margin-bottom:4px; }
+  .mock { display:inline-block; margin-top:10px; background:#fff; border:1px solid #bbb; border-radius:6px; font-size:.9rem;
+          box-shadow:0 2px 6px rgba(0,0,0,.12); }
+  .smart { background:#1f5fa8; color:#fff; padding:14px 18px; max-width:380px; border-radius:6px; }
+  .smart .t { font-size:1.15rem; font-weight:600; margin-bottom:6px; }
+  .smart .run { display:inline-block; margin-top:10px; border:1px solid #fff; padding:3px 14px; }
+  .file { display:inline-block; margin-top:10px; padding:6px 12px; background:#fff; border:1px solid #bbb; border-radius:6px; font-family:Consolas, monospace; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:14px; }
+  .grid > div { background:var(--bg); border:1px solid var(--line); border-radius:12px; padding:16px; }
+  .grid b { display:block; margin-bottom:4px; }
+  ul.plain { padding-left:20px; }
+  .faq dt { font-weight:600; margin-top:14px; }
+  .faq dd { margin:4px 0 0; }
+  .note { background:#fff8c5; border:1px solid #d4a72c; border-radius:8px; padding:12px 16px; margin-top:18px; }
+  footer { border-top:1px solid var(--line); margin-top:50px; padding-top:16px; color:var(--soft); font-size:.9rem; text-align:center; }
+  footer a, .faq a, p a { color:#0969da; }
+  @media (max-width:560px) { h1 { font-size:1.7rem; } .btn { font-size:1.15rem; padding:16px 24px; } ol.steps > li { flex-direction:column; } }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <h1>NAV Books</h1>
+  <p class="tag">Simple bookkeeping for your household and your small business. Bring in your bank activity, sort it,
+     check it against your statements, and print the reports you need at tax time.</p>
+
+  <a class="btn" id="dl" href="https://github.com/naveenp143/NAV_FIN_PUBLIC/releases/latest/download/NAV-Books-Setup.exe">
+    Download for Windows
+    <small id="dl-info">Free &middot; Windows 10 or 11</small>
+  </a>
+  <p class="under">No account, no sign-up. Your books stay on your own computer, encrypted, and nothing is uploaded.</p>
+
+  <img class="shot" src="app-window.png" alt="The NAV Books home screen">
+</header>
+
+<h2>Install it in 3 steps</h2>
+<ol class="steps">
+  <li><div class="step-body">
+    <b class="big">Open the download</b>
+    Open your <b>Downloads</b> folder and double-click this file:
+    <br><span class="file">NAV-Books-Setup.exe</span>
+    <p style="margin:10px 0 4px">Windows may show a blue box saying <b>"Windows protected your PC"</b>. That is normal for small free programs.
+       Click <b>More info</b>, then <b>Run anyway</b>.</p>
+    <span class="mock smart"><div class="t">Windows protected your PC</div>
+      Microsoft Defender SmartScreen prevented an unrecognized app from starting...<br><u>More info</u><br>
+      <span class="run">Run anyway</span></span>
+  </div></li>
+
+  <li><div class="step-body">
+    <b class="big">Click Next until it finishes</b>
+    There is nothing to choose. Leave the box ticked if you want a shortcut on your Desktop.
+  </div></li>
+
+  <li><div class="step-body">
+    <b class="big">Open it and choose a password</b>
+    You'll find <b>NAV Books</b> on your Desktop and in the Start menu. The first time, type your name and choose a password.
+    Your Personal and Business books are created for you.
+    <p style="margin:10px 0 0;color:var(--soft)">Write the password down somewhere safe. Nobody can recover it for you.</p>
+  </div></li>
+</ol>
+
+<div class="note"><b>Nothing else to install.</b> It comes with everything it needs, including its own database.
+  It doesn't need administrator rights, and it only uses the internet if you choose to connect your bank.</div>
+
+<h2>What it does</h2>
+<div class="grid">
+  <div><b>Personal and business, kept apart</b>Two sets of books from the start. Switch with one click.</div>
+  <div><b>Brings in your bank activity</b>Load a file from your bank or card, or connect your bank so it arrives by itself.</div>
+  <div><b>Moves you over from QuickBooks or Quicken</b>Brings in your whole history and files it by year.</div>
+  <div><b>Sorts for you</b>Tell it once what a payee is for and it remembers.</div>
+  <div><b>Monthly statement check</b>Make sure your books and your bank agree, with a report to keep.</div>
+  <div><b>Tax-time reports</b>Profit &amp; Loss, Balance Sheet, and totals by tax-return line. Print, PDF or Excel.</div>
+  <div><b>A record you can stand behind</b>Nothing is ever erased. Every change is logged with who, when and where.</div>
+  <div><b>Help on everything</b>Every button and box has a ? that explains it in plain words.</div>
+</div>
+
+<h2>What you need</h2>
+<ul class="plain">
+  <li>A Windows 10 or 11 PC.</li>
+  <li>A file from your bank or card (CSV, QFX or OFX), or your QuickBooks or Quicken export. You can also type entries in by hand.</li>
+  <li>Optional: a <a href="https://beta-bridge.simplefin.org">SimpleFIN Bridge</a> account (about $15 a year) if you want the app to fetch bank transactions by itself.</li>
+</ul>
+
+<h2>Questions</h2>
+<dl class="faq">
+  <dt>Where are my books kept?</dt>
+  <dd>In <b>Documents &gt; NAV Books</b>, one encrypted file per year. They never leave your computer unless you copy them.</dd>
+  <dt>What if I forget my password?</dt>
+  <dd>The books can't be opened without it, and there is no reset. Keep it somewhere safe, and add a second admin user as a spare key.</dd>
+  <dt>How do I back up?</dt>
+  <dd>Settings &gt; Back up now, then copy the dated folder to a USB drive or cloud storage. The copy stays encrypted.</dd>
+  <dt>How do I update to a new version?</dt>
+  <dd>Download again from this page and run the installer again. Your books stay put.</dd>
+  <dt>How do I remove it?</dt>
+  <dd>Windows Settings &gt; Apps &gt; Installed apps &gt; NAV Books &gt; Uninstall. Your books are not deleted.</dd>
+  <dt>Does it file my taxes?</dt>
+  <dd>No. It gives you and your tax preparer the totals for each line. Keep your receipts.</dd>
+  <dt>Is there a Mac version?</dt>
+  <dd>Not yet. This download is for Windows only.</dd>
+  <dt>Something went wrong. What do I do?</dt>
+  <dd><a href="https://github.com/naveenp143/NAV_FIN_PUBLIC/issues">Report the problem here</a> and say what the message said. Never send your books or password.</dd>
+</dl>
+
+<p style="margin-top:30px">
+  <a href="https://github.com/naveenp143/NAV_FIN_PUBLIC">Read me</a> &middot;
+  <a href="https://github.com/naveenp143/NAV_FIN_PUBLIC/blob/main/CHANGELOG.md">What's new</a> &middot;
+  <a href="https://github.com/naveenp143/NAV_FIN_PUBLIC/releases">All versions</a>
+</p>
+
+<footer>
+  NAV Books keeps records and totals. It is not tax, legal or accounting advice. Check your figures with a qualified preparer.
+  <br>This page does not track you: no cookies and no visit counter.
+  <br><span id="ver"></span>
+</footer>
+</main>
+
+<script>
+// Show the current version and its size (read live from GitHub).
+fetch("https://api.github.com/repos/naveenp143/NAV_FIN_PUBLIC/releases/latest")
+  .then(r => r.ok ? r.json() : null)
+  .then(rel => {
+    if (!rel) return;
+    const exe = (rel.assets || []).find(a => /Setup\.exe$/.test(a.name));
+    if (!exe) return;
+    const mb = Math.round(exe.size / 1048576);
+    document.getElementById("dl-info").textContent = "Free · Windows 10 or 11 · " + mb + " MB · version " + rel.tag_name.replace(/^v/, "");
+    document.getElementById("ver").textContent = "Latest version " + rel.tag_name.replace(/^v/, "") + ".";
+  })
+  .catch(() => {});
+</script>
+</body>
+</html>
